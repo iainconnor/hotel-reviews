@@ -8,4 +8,7 @@ $uri = urldecode(
 if ( $uri == "/cornucopia" ) {
     $cornucopiaController = new \PricelinePn\HotelReviews\Controllers\Cornucopia();
     $cornucopiaController->demo();
+} else if ( $uri == "/mocking_jay" ) {
+    $mockingJayController = new \PricelinePn\HotelReviews\Controllers\MockingJay();
+    $mockingJayController->demo();
 }

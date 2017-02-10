@@ -47,5 +47,13 @@ HotelDetailed
 
 App
 Controllers/Cornucopia
-
 index.php
+
+-- END OF STEP 1 --
+
+composer require iainconnor/mocking-jay
+
+App
+Controllers/MockingJay
+index.php
+Back to models to add specific mocking properties

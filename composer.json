@@ -3,7 +3,8 @@
     "description": "A hotel review Microservice.",
     "type": "project",
     "require": {
-        "iainconnor/cornucopia": "dev-master"
+        "iainconnor/cornucopia": "dev-master",
+        "iainconnor/mocking-jay": "dev-master"
     },
     "license": "MIT",
     "authors": [

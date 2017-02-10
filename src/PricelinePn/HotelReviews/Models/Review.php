@@ -4,6 +4,8 @@
 namespace PricelinePn\HotelReviews\Models;
 
 
+use IainConnor\MockingJay\Annotations\Mock;
+
 class Review
 {
     /** @var int The unique id. */
@@ -15,7 +17,10 @@ class Review
     /** @var User The user whos submitted the review. */
     public $user;
 
-    /** @var string|null The review of the hotel. */
+    /**
+     * @var string|null The review of the hotel.
+     * @Mock(fakerProvider="paragraph")
+     */
     public $text;
 
     /** @var int The rating, out of 10. */

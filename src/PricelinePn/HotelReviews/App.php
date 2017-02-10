@@ -7,6 +7,7 @@ namespace PricelinePn\HotelReviews;
 use Doctrine\Common\Cache\ArrayCache;
 use IainConnor\Cornucopia\AnnotationReader;
 use IainConnor\Cornucopia\CachedReader;
+use IainConnor\MockingJay\MockingJay;
 
 class App
 {
@@ -16,6 +17,9 @@ class App
     /** @var CachedReader */
     public $cornucopia;
 
+    /** @var MockingJay */
+    public $mockingJay;
+
     /**
      * App constructor.
      */
@@ -24,6 +28,11 @@ class App
         $this->cornucopia = new CachedReader(
             new AnnotationReader(),
             new ArrayCache()
+        );
+
+        $this->mockingJay = MockingJay::instance();
+        $this->mockingJay->setAnnotationReader(
+            $this->cornucopia
         );
     }
 

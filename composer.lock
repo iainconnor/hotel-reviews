@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8c628609ddc304195f3b96befacf43c4",
+    "content-hash": "e76e008a3daddffbeb676ca21dc73ac5",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -198,6 +198,56 @@
             "time": "2014-09-09 13:34:57"
         },
         {
+            "name": "fzaninotto/faker",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fzaninotto/Faker.git",
+                "reference": "a2dec96198bb146ffead806700074b0ec8d07f2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/a2dec96198bb146ffead806700074b0ec8d07f2f",
+                "reference": "a2dec96198bb146ffead806700074b0ec8d07f2f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3|^7.0"
+            },
+            "require-dev": {
+                "ext-intl": "*",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Faker\\": "src/Faker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Zaninotto"
+                }
+            ],
+            "description": "Faker is a PHP library that generates fake data for you.",
+            "keywords": [
+                "data",
+                "faker",
+                "fixtures"
+            ],
+            "time": "2017-02-01 09:18:35"
+        },
+        {
             "name": "iainconnor/cornucopia",
             "version": "dev-master",
             "source": {
@@ -233,13 +283,51 @@
             ],
             "description": "Expanded Annotation processor.",
             "time": "2017-02-09 02:07:01"
+        },
+        {
+            "name": "iainconnor/mocking-jay",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iainconnor/mocking-jay.git",
+                "reference": "daa1ae1d59587b057045453940a227755c59851f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iainconnor/mocking-jay/zipball/daa1ae1d59587b057045453940a227755c59851f",
+                "reference": "daa1ae1d59587b057045453940a227755c59851f",
+                "shasum": ""
+            },
+            "require": {
+                "fzaninotto/faker": "^1.6",
+                "iainconnor/cornucopia": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "IainConnor\\MockingJay\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Iain Connor",
+                    "email": "iainconnor@gmail.com"
+                }
+            ],
+            "description": "Object mocking by Annotations.",
+            "time": "2017-02-10 02:16:17"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "iainconnor/cornucopia": 20
+        "iainconnor/cornucopia": 20,
+        "iainconnor/mocking-jay": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
