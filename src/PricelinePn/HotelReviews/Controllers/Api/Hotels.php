@@ -27,7 +27,7 @@ class Hotels
      * @GET(path="/{id}")
      *
      * @param int $id The hotel id.
-     * @return HotelDetailed
+     * @return HotelDetailed The requested hotel.
      */
     public function getHotelById($id) {
 
@@ -36,7 +36,7 @@ class Hotels
     /**
      * Returns all hotels.
      *
-     * @return Hotel[]
+     * @return Hotel[] All the hotels.
      */
     public function getHotels() {
 

@@ -5,13 +5,28 @@ $uri = urldecode(
     parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)
 );
 
+$uriParts = explode('/', $uri);
+
 if ( $uri == "/cornucopia" ) {
     $cornucopiaController = new \PricelinePn\HotelReviews\Controllers\Cornucopia();
     $cornucopiaController->demo();
 } else if ( $uri == "/mocking_jay" ) {
     $mockingJayController = new \PricelinePn\HotelReviews\Controllers\MockingJay();
     $mockingJayController->demo();
-} else if ( $uri == "/game_maker" ) {
+} else if ( $uriParts[1] == "game_maker" ) {
     $gameMakerController = new \PricelinePn\HotelReviews\Controllers\GameMaker();
-    $gameMakerController->demo();
+
+    if (count($uriParts) >= 3) {
+        if ( $uriParts[2] == 'markdown' ) {
+            $gameMakerController->generateMarkdown();
+        } else if ( $uriParts[2] == 'swagger' ) {
+            $gameMakerController->generateSwagger();
+        } else if ( $uriParts[2] == 'mysql' ) {
+            $gameMakerController->generateMySql();
+        } else if ( $uriParts[2] == 'json' ) {
+            $gameMakerController->generateJsonSpec();
+        }
+    } else {
+        $gameMakerController->demo();
+    }
 }

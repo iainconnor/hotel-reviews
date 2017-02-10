@@ -31,7 +31,7 @@ class Reviews
      * @GET(path="/{id}", friendlyName="GetReview")
      *
      * @param int $id The review id.
-     * @return Review
+     * @return Review The requested review.
      */
     public function getReviewById($id) {
 
@@ -45,7 +45,7 @@ class Reviews
      * @Input(enum={"recent", "oldest", "highest", "lowest"})
      * @param string $order The sort order for the returned reviews.
      *
-     * @return Review[]
+     * @return Review[] All reviews.
      */
     public function getAllReviews($order = "recent") {
 
@@ -62,7 +62,7 @@ class Reviews
      * @Input(enum={"recent", "oldest", "highest", "lowest"})
      * @param string $order The sort order for the returned reviews.
      *
-     * @return Review[]
+     * @return Review[] The reviews for the requested hotel.
      */
     public function getReviewsForHotelId($id, $order = "recent") {
 
@@ -126,7 +126,7 @@ class Reviews
      *
      * @Output(statusCode=204)
      * @IgnoreOutputWrapper()
-     * @return null
+     * @return null Nothing.
      */
     public function deleteReviewById($reviewId) {
 
