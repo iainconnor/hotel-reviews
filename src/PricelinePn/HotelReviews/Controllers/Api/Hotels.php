@@ -36,6 +36,8 @@ class Hotels
     /**
      * Returns all hotels.
      *
+     * @GET(path="")
+     *
      * @return Hotel[] All the hotels.
      */
     public function getHotels() {

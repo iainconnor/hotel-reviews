@@ -77,3 +77,20 @@ Controllers/Api/Users
 -- END OF STEP 4 --
 
 index.php
+Controllers/GameMaker
+
+-- END OF STEP 5 --
+
+composer require iainconnor/jabber-jay
+App
+
+-- END OF STEP 6 --
+
+composer require iainconnor/peace-keeper
+composer require --dev phpunit/phpunit
+
+App
+index.php
+Controllers/JabberJay
+
+http://localhost:1234/jabber_jay/hotels

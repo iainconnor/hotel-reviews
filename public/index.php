@@ -29,4 +29,7 @@ if ( $uri == "/cornucopia" ) {
     } else {
         $gameMakerController->demo();
     }
+} else if ( $uriParts[1] == "jabber_jay" ) {
+    $jabberJayController = new \PricelinePn\HotelReviews\Controllers\JabberJay();
+    $jabberJayController->demo(join("/", array_slice($uriParts, 2)));
 }

@@ -58,7 +58,7 @@ class Users
     /**
      * Retrieves the currently logged in user.
      *
-     * @GET(path="/", friendlyName="GetMe")
+     * @GET(path="", friendlyName="GetMe")
      * @Tag(tags={"Authenticated"})
      *
      * @Input(in="HEADER")

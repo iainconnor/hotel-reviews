@@ -8,6 +8,7 @@ use Doctrine\Common\Cache\ArrayCache;
 use IainConnor\Cornucopia\AnnotationReader;
 use IainConnor\Cornucopia\CachedReader;
 use IainConnor\GameMaker\GameMaker;
+use IainConnor\JabberJay\JabberJay;
 use IainConnor\MockingJay\MockingJay;
 
 class App
@@ -26,6 +27,9 @@ class App
 
     /** @var GameMaker */
     public $gameMaker;
+
+    /** @var JabberJay */
+    public $jabberJay;
 
     /**
      * App constructor.
@@ -46,6 +50,8 @@ class App
         $this->gameMaker->setAnnotationReader(
             $this->cornucopia
         );
+
+        $this->jabberJay = new JabberJay($this->gameMaker, $this->mockingJay);
     }
 
     public static function instance() {

@@ -40,7 +40,7 @@ class Reviews
     /**
      * Gets all reviews.
      *
-     * @GET(path="/", friendlyName="GetReviews")
+     * @GET(path="", friendlyName="GetReviews")
      *
      * @Input(enum={"recent", "oldest", "highest", "lowest"})
      * @param string $order The sort order for the returned reviews.
@@ -71,7 +71,7 @@ class Reviews
     /**
      * Submits a review.
      *
-     * @POST(path="/", friendlyName="SubmitReview")
+     * @POST(path="", friendlyName="SubmitReview")
      * @Tag(tags={"Authenticated"})
      *
      * @Input(in="FORM", name="hotel_id")
