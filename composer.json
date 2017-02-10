@@ -1,0 +1,21 @@
+{
+    "name": "pricelinepn/demo",
+    "description": "A hotel review Microservice.",
+    "type": "project",
+    "require": {
+        "iainconnor/cornucopia": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "iain.connor",
+            "email": "iain.connor@priceline.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "PricelinePn\\HotelReviews\\": "src/"
+        }
+    }
+}

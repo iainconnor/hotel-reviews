@@ -1,0 +1,51 @@
+mkdir ./hotel-reviews && cd hotel-reviews
+
+gi windows,osx,linux,composer,phpstorm > ./.gitignore
+git init
+
+composer init
+pricelinepn/hotel-reviews
+A hotel reviews Microservice.
+dev
+project
+MIT
+iainconnor/cornucopia
+
+mkdir -p src/PricelinePn/HotelReviews
+
+nano composer.json
+"autoload": {
+    "psr-0": {
+        "PricelinePn\\HotelReviews\\": "src/"
+    }
+}
+
+composer install
+
+curl https://raw.githubusercontent.com/laravel/laravel/master/server.php > server.php
+
+mkdir public
+curl https://raw.githubusercontent.com/laravel/laravel/master/public/.htaccess > public/.htaccess
+
+nano public/index.php
+<?php
+require dirname(__FILE__) . "/../vendor/autoload.php";
+
+echo "Hello World";
+
+php -S localhost:1234 server.php
+
+mkdir -p src/PricelinePn/HotelReviews/Models
+
+Country
+State
+Address
+Hotel
+User
+Review
+HotelDetailed
+
+App
+Controllers/Cornucopia
+
+index.php
