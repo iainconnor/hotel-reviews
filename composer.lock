@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e76e008a3daddffbeb676ca21dc73ac5",
+    "content-hash": "6792998df36c0824c633aad0cedd470d",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -248,6 +248,54 @@
             "time": "2017-02-01 09:18:35"
         },
         {
+            "name": "hanneskod/classtools",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hanneskod/classtools.git",
+                "reference": "639caf8f48de38aaa7b68ca786ac6bd0aa6ffcc6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hanneskod/classtools/zipball/639caf8f48de38aaa7b68ca786ac6bd0aa6ffcc6",
+                "reference": "639caf8f48de38aaa7b68ca786ac6bd0aa6ffcc6",
+                "shasum": ""
+            },
+            "require": {
+                "nikic/php-parser": "^3.0",
+                "php": ">=5.5.0",
+                "symfony/finder": "^2.7|^3.0"
+            },
+            "require-dev": {
+                "hanneskod/readme-tester": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "hanneskod\\classtools\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "WTFPL"
+            ],
+            "authors": [
+                {
+                    "name": "Hannes Forsgård",
+                    "email": "hannes.forsgard@fripost.org"
+                }
+            ],
+            "description": "Find, extract and process classes from file system",
+            "homepage": "https://github.com/hanneskod/classtools",
+            "keywords": [
+                "class finder",
+                "code generator",
+                "metaprogramming",
+                "minimizer"
+            ],
+            "time": "2016-12-28T19:35:55+00:00"
+        },
+        {
             "name": "iainconnor/cornucopia",
             "version": "dev-master",
             "source": {
@@ -285,6 +333,43 @@
             "time": "2017-02-09 02:07:01"
         },
         {
+            "name": "iainconnor/game-maker",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iainconnor/game-maker.git",
+                "reference": "d39f58433bc1632207ab2d19475a656511778845"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iainconnor/game-maker/zipball/d39f58433bc1632207ab2d19475a656511778845",
+                "reference": "d39f58433bc1632207ab2d19475a656511778845",
+                "shasum": ""
+            },
+            "require": {
+                "hanneskod/classtools": "~1.0",
+                "iainconnor/cornucopia": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "IainConnor\\GameMaker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Iain Connor",
+                    "email": "iainconnor@gmail.com"
+                }
+            ],
+            "description": "API documentation by Annotations.",
+            "time": "2017-02-10 02:58:04"
+        },
+        {
             "name": "iainconnor/mocking-jay",
             "version": "dev-master",
             "source": {
@@ -320,6 +405,106 @@
             ],
             "description": "Object mocking by Annotations.",
             "time": "2017-02-10 02:16:17"
+        },
+        {
+            "name": "nikic/php-parser",
+            "version": "3.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/PHP-Parser.git",
+                "reference": "df98b0417b4d5d74514e3d2f34d3077e17772345"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/df98b0417b4d5d74514e3d2f34d3077e17772345",
+                "reference": "df98b0417b4d5d74514e3d2f34d3077e17772345",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0|~5.0"
+            },
+            "bin": [
+                "bin/php-parse"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PhpParser\\": "lib/PhpParser"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov"
+                }
+            ],
+            "description": "A PHP parser written in PHP",
+            "keywords": [
+                "parser",
+                "php"
+            ],
+            "time": "2017-02-09 17:43:09"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/finder.git",
+                "reference": "87b6a1d1b0577c072e3391c67ef17ae48b1f9ab4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/87b6a1d1b0577c072e3391c67ef17ae48b1f9ab4",
+                "reference": "87b6a1d1b0577c072e3391c67ef17ae48b1f9ab4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Finder\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Finder Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-02-08 22:54:13"
         }
     ],
     "packages-dev": [],
@@ -327,7 +512,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "iainconnor/cornucopia": 20,
-        "iainconnor/mocking-jay": 20
+        "iainconnor/mocking-jay": 20,
+        "iainconnor/game-maker": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

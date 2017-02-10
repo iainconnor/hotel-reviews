@@ -4,7 +4,8 @@
     "type": "project",
     "require": {
         "iainconnor/cornucopia": "dev-master",
-        "iainconnor/mocking-jay": "dev-master"
+        "iainconnor/mocking-jay": "dev-master",
+        "iainconnor/game-maker": "dev-master"
     },
     "license": "MIT",
     "authors": [

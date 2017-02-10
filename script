@@ -57,3 +57,14 @@ App
 Controllers/MockingJay
 index.php
 Back to models to add specific mocking properties
+
+-- END OF STEP 2 --
+
+composer require iainconnor/game-maker
+
+OutputWrapper
+App
+    Add constant
+Controllers/Api/Hotels
+Controllers/MockingJay
+index.php

@@ -11,4 +11,7 @@ if ( $uri == "/cornucopia" ) {
 } else if ( $uri == "/mocking_jay" ) {
     $mockingJayController = new \PricelinePn\HotelReviews\Controllers\MockingJay();
     $mockingJayController->demo();
+} else if ( $uri == "/game_maker" ) {
+    $gameMakerController = new \PricelinePn\HotelReviews\Controllers\GameMaker();
+    $gameMakerController->demo();
 }
