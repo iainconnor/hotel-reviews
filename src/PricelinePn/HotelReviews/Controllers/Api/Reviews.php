@@ -20,7 +20,6 @@ use PricelinePn\HotelReviews\Models\Review;
  * @package PricelinePn\HotelReviews\Controllers\Api
  * @API(path=\PricelinePn\HotelReviews\App::API_PATH)
  * @Controller(path="/reviews")
- * @OutputWrapper(class="\PricelinePn\HotelReviews\Models\OutputWrapper", property="data")
  * @Tag(tags={"Reviews"})
  */
 class Reviews
@@ -122,13 +121,13 @@ class Reviews
      * @DELETE(path="/{id}", friendlyName="DeleteReview")
      * @Tag(tags={"Authenticated"})
      *
-     * @param int $reviewId The review id to delete.
+     * @param int $id The review id to delete.
      *
      * @Output(statusCode=204)
      * @IgnoreOutputWrapper()
      * @return null Nothing.
      */
-    public function deleteReviewById($reviewId) {
+    public function deleteReviewById($id) {
 
     }
 }

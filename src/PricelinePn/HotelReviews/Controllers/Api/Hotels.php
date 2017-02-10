@@ -16,7 +16,6 @@ use PricelinePn\HotelReviews\Models\HotelDetailed;
  * @package PricelinePn\HotelReviews\Controllers\Api
  * @API(path=\PricelinePn\HotelReviews\App::API_PATH)
  * @Controller(path="/hotels")
- * @OutputWrapper(class="\PricelinePn\HotelReviews\Models\OutputWrapper", property="data")
  * @Tag(tags={"Hotels"})
  */
 class Hotels

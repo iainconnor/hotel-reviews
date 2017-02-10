@@ -21,7 +21,6 @@ use PricelinePn\HotelReviews\Models\User;
  * @package PricelinePn\HotelReviews\Controllers\Api
  * @API(path=\PricelinePn\HotelReviews\App::API_PATH)
  * @Controller(path="/users")
- * @OutputWrapper(class="\PricelinePn\HotelReviews\Models\OutputWrapper", property="data")
  * @Tag(tags={"Users"})
  */
 class Users

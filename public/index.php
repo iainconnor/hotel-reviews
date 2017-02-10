@@ -32,4 +32,7 @@ if ( $uri == "/cornucopia" ) {
 } else if ( $uriParts[1] == "jabber_jay" ) {
     $jabberJayController = new \PricelinePn\HotelReviews\Controllers\JabberJay();
     $jabberJayController->demo(join("/", array_slice($uriParts, 2)));
+} else if ( $uri == "/peace_keeper" ) {
+    $peaceKeeperController = new \PricelinePn\HotelReviews\Controllers\PeaceKeeper();
+    $peaceKeeperController->demo();
 }

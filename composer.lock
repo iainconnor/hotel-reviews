@@ -482,12 +482,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/iainconnor/cornucopia.git",
-                "reference": "fd2b834f94d29ace1b3567a61bd1035de6f016df"
+                "reference": "1806fe9b8e8aef59827cd9398136ed4f0bf40720"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iainconnor/cornucopia/zipball/fd2b834f94d29ace1b3567a61bd1035de6f016df",
-                "reference": "fd2b834f94d29ace1b3567a61bd1035de6f016df",
+                "url": "https://api.github.com/repos/iainconnor/cornucopia/zipball/1806fe9b8e8aef59827cd9398136ed4f0bf40720",
+                "reference": "1806fe9b8e8aef59827cd9398136ed4f0bf40720",
                 "shasum": ""
             },
             "require": {
@@ -511,7 +511,7 @@
                 }
             ],
             "description": "Expanded Annotation processor.",
-            "time": "2017-02-09 02:07:01"
+            "time": "2017-02-10 15:12:59"
         },
         {
             "name": "iainconnor/game-maker",
@@ -519,12 +519,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/iainconnor/game-maker.git",
-                "reference": "d39f58433bc1632207ab2d19475a656511778845"
+                "reference": "1fecda2ab0ad846b4787dc32c652c36c4eab3f39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iainconnor/game-maker/zipball/d39f58433bc1632207ab2d19475a656511778845",
-                "reference": "d39f58433bc1632207ab2d19475a656511778845",
+                "url": "https://api.github.com/repos/iainconnor/game-maker/zipball/1fecda2ab0ad846b4787dc32c652c36c4eab3f39",
+                "reference": "1fecda2ab0ad846b4787dc32c652c36c4eab3f39",
                 "shasum": ""
             },
             "require": {
@@ -548,7 +548,7 @@
                 }
             ],
             "description": "API documentation by Annotations.",
-            "time": "2017-02-10 02:58:04"
+            "time": "2017-02-10 17:52:10"
         },
         {
             "name": "iainconnor/jabber-jay",
@@ -628,12 +628,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/iainconnor/mocking-jay.git",
-                "reference": "daa1ae1d59587b057045453940a227755c59851f"
+                "reference": "677881245e7e8800f1f4160901f55a6aef8892ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iainconnor/mocking-jay/zipball/daa1ae1d59587b057045453940a227755c59851f",
-                "reference": "daa1ae1d59587b057045453940a227755c59851f",
+                "url": "https://api.github.com/repos/iainconnor/mocking-jay/zipball/677881245e7e8800f1f4160901f55a6aef8892ae",
+                "reference": "677881245e7e8800f1f4160901f55a6aef8892ae",
                 "shasum": ""
             },
             "require": {
@@ -657,7 +657,7 @@
                 }
             ],
             "description": "Object mocking by Annotations.",
-            "time": "2017-02-10 02:16:17"
+            "time": "2017-02-10 17:57:13"
         },
         {
             "name": "iainconnor/peace-keeper",
@@ -665,12 +665,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/iainconnor/peace-keeper.git",
-                "reference": "64f0ed5084f9e566f4af7bc6e845ace238beff70"
+                "reference": "59e58716ee837fee17afff975b2edf0f8e6f167f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iainconnor/peace-keeper/zipball/64f0ed5084f9e566f4af7bc6e845ace238beff70",
-                "reference": "64f0ed5084f9e566f4af7bc6e845ace238beff70",
+                "url": "https://api.github.com/repos/iainconnor/peace-keeper/zipball/59e58716ee837fee17afff975b2edf0f8e6f167f",
+                "reference": "59e58716ee837fee17afff975b2edf0f8e6f167f",
                 "shasum": ""
             },
             "require": {
@@ -701,7 +701,7 @@
                 }
             ],
             "description": "API testing by Annotations.",
-            "time": "2017-02-10 03:00:13"
+            "time": "2017-02-10 06:48:29"
         },
         {
             "name": "jms/cg",
@@ -1595,7 +1595,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2017-01-23T09:23:06+00:00"
+            "time": "2017-01-23 09:23:06"
         },
         {
             "name": "myclabs/deep-copy",
@@ -1691,7 +1691,7 @@
                 "reflection",
                 "static analysis"
             ],
-            "time": "2015-12-27T11:43:31+00:00"
+            "time": "2015-12-27 11:43:31"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -1846,7 +1846,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2016-11-21T14:58:47+00:00"
+            "time": "2016-11-21 14:58:47"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -1908,7 +1908,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-02-02T10:35:41+00:00"
+            "time": "2017-02-02 10:35:41"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -1955,7 +1955,7 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2016-10-03T07:40:28+00:00"
+            "time": "2016-10-03 07:40:28"
         },
         {
             "name": "phpunit/php-text-template",
@@ -2089,7 +2089,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2016-11-15T14:06:22+00:00"
+            "time": "2016-11-15 14:06:22"
         },
         {
             "name": "phpunit/phpunit",
@@ -2097,12 +2097,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "7ee9fbb5c440215aeb57067c3bbd34ae2e43768e"
+                "reference": "c6f98e536ff91cf9663924e4b354ed9bc7b30dd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/7ee9fbb5c440215aeb57067c3bbd34ae2e43768e",
-                "reference": "7ee9fbb5c440215aeb57067c3bbd34ae2e43768e",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c6f98e536ff91cf9663924e4b354ed9bc7b30dd2",
+                "reference": "c6f98e536ff91cf9663924e4b354ed9bc7b30dd2",
                 "shasum": ""
             },
             "require": {
@@ -2171,7 +2171,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-02-08T06:00:41+00:00"
+            "time": "2017-02-10 09:07:31"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -2230,7 +2230,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2017-02-05T15:27:55+00:00"
+            "time": "2017-02-05 15:27:55"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -2275,7 +2275,7 @@
             ],
             "description": "Looks up which function or method a line of code belongs to",
             "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
-            "time": "2016-12-06T20:05:00+00:00"
+            "time": "2016-12-06 20:05:00"
         },
         {
             "name": "sebastian/comparator",
@@ -2339,7 +2339,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2017-01-29T09:50:25+00:00"
+            "time": "2017-01-29 09:50:25"
         },
         {
             "name": "sebastian/diff",
@@ -2391,7 +2391,7 @@
             "keywords": [
                 "diff"
             ],
-            "time": "2016-10-03T07:45:03+00:00"
+            "time": "2016-10-03 07:45:03"
         },
         {
             "name": "sebastian/environment",
@@ -2441,7 +2441,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2016-11-26T07:53:53+00:00"
+            "time": "2016-11-26 07:53:53"
         },
         {
             "name": "sebastian/exporter",
@@ -2508,7 +2508,7 @@
                 "export",
                 "exporter"
             ],
-            "time": "2016-11-19T08:54:04+00:00"
+            "time": "2016-11-19 08:54:04"
         },
         {
             "name": "sebastian/global-state",
@@ -2559,7 +2559,7 @@
             "keywords": [
                 "global state"
             ],
-            "time": "2016-10-03T07:46:22+00:00"
+            "time": "2016-10-03 07:46:22"
         },
         {
             "name": "sebastian/object-enumerator",
@@ -2605,7 +2605,7 @@
             ],
             "description": "Traverses array structures and object graphs to enumerate all referenced objects",
             "homepage": "https://github.com/sebastianbergmann/object-enumerator/",
-            "time": "2016-11-19T07:35:10+00:00"
+            "time": "2016-11-19 07:35:10"
         },
         {
             "name": "sebastian/recursion-context",
@@ -2658,7 +2658,7 @@
             ],
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
-            "time": "2016-11-19T07:33:16+00:00"
+            "time": "2016-11-19 07:33:16"
         },
         {
             "name": "sebastian/resource-operations",
@@ -2700,7 +2700,7 @@
             ],
             "description": "Provides a list of PHP built-in functions that operate on resources",
             "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
-            "time": "2016-10-03T07:43:09+00:00"
+            "time": "2016-10-03 07:43:09"
         },
         {
             "name": "sebastian/version",
@@ -2743,7 +2743,7 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
-            "time": "2016-10-03T07:35:21+00:00"
+            "time": "2016-10-03 07:35:21"
         },
         {
             "name": "webmozart/assert",
@@ -2793,7 +2793,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2016-11-23T20:04:41+00:00"
+            "time": "2016-11-23 20:04:41"
         }
     ],
     "aliases": [],

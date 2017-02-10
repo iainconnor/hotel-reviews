@@ -10,6 +10,9 @@ use IainConnor\Cornucopia\CachedReader;
 use IainConnor\GameMaker\GameMaker;
 use IainConnor\JabberJay\JabberJay;
 use IainConnor\MockingJay\MockingJay;
+use IainConnor\PeaceKeeper\Drivers\AcceptanceTest;
+use IainConnor\PeaceKeeper\Drivers\UnitTest;
+use IainConnor\PeaceKeeper\PeaceKeeper;
 
 class App
 {
@@ -30,6 +33,9 @@ class App
 
     /** @var JabberJay */
     public $jabberJay;
+
+    /** @var PeaceKeeper */
+    public $peaceKeeper;
 
     /**
      * App constructor.
@@ -52,6 +58,8 @@ class App
         );
 
         $this->jabberJay = new JabberJay($this->gameMaker, $this->mockingJay);
+
+        $this->peaceKeeper = new PeaceKeeper($this->gameMaker, new UnitTest());
     }
 
     public static function instance() {
