@@ -14,7 +14,7 @@ class Review
     /** @var Hotel The hotel the review was for. */
     public $hotel;
 
-    /** @var User The user whos submitted the review. */
+    /** @var User The user who submitted the review. */
     public $user;
 
     /**

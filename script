@@ -68,3 +68,8 @@ App
 Controllers/Api/Hotels
 Controllers/MockingJay
 index.php
+
+-- END OF STEP 3 --
+
+Controllers/Api/Reviews
+Controllers/Api/Users
